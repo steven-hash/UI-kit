@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung|ZCOOL+KuaiLe&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+body {
+
+    background-color:#9d9d9d; 
+    font-family: 'ZCOOL KuaiLe', cursive;
+    
+}
+
+header{
+    display: flex;
+    width: 100%;
+    margin: auto;
+
+}
+
+
+nav {
+    background-color:#da4200;
+    flex: 2;
+    padding-top: 20px;
+    width: 500%;
+    height: 70px;
+}
+
+
+ul{
+    text-decoration: none;
+    flex:2;
+    float: left;
+    width: 40%;
+    margin: auto;
+    padding-left: 850px;
+    padding-bottom: 50px;
+   
+    
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    
+}
+
+ nav .logo-container {
+    display: flex;
+    margin: 0px;
+    padding:auto;
+    width: 2px;
+    height: 2px;
+     
+
+}
+
+
+
+img {
+    width: 6em;
+    height: 6em;
+    margin-left: 20px;
+    display:initial;
+   
+}
+
+footer {
+    background-color:#da4200;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    padding-top:20px;
+}
+
+#entourer {
+    display:flex;
+    flex-direction: row;
+    background-image:url('./img/event2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#gauche {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex: 1
+}
+
+#droite {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    
+
+}
+
+#inscription {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    width: 80%;
+}
+#identification {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 77px;
+    padding-top: 66px;
+
+}
+
+#inscription form { 
+    width: 70%;
+    padding-bottom:3rem;
+
+
+}
+
+#inscription label {
+    font-size:0.9rem;
+    line-height: 2em;
+    font-weight: 500;
+
+}
+
+#inscription .text-input {
+
+    margin-bottom:1.3rem;
+    width:100%;
+    border-radius: 3px;
+    background: white;
+    border:1px solid #555;
+    padding: 0.5rem,1rem;
+    color:#ccc;
+    line-height: 1.3rem;
+
+}
+
+
+#identification  form { 
+    width: 70%;
+    padding-bottom:3rem;
+
+
+}
+
+#identification label {
+    font-size:0.9rem;
+    line-height: 2em;
+    font-weight: 500;
+
+}
+
+#identification .text-input {
+    margin-bottom:1.3rem;
+    width:100%;
+    border-radius: 3px;
+    background: white;
+    border:1px solid #555;
+    padding: 0.5rem,1rem;
+    color:#ccc;
+  
+}
+
+.buttonstyle1 {
+    background-color: #da4200;
+    color:black;
+    padding:0.7rem 1rem;
+    margin-top:25px;
+    display:block;
+    border:0;
+    border-radius:4px;
+    font-weight: 100;
+    text-decoration: none;
+    cursor: pointer;
+    text-align:center;
+    transition:all;
+   
+    
+
+
+}
+.buttonstyle2 {
+    background-color: #da4200;
+    color:black;
+    padding:0.7rem 1rem;
+    margin-top:25px;
+    display:block;
+    border:0;
+    border-radius:4px;
+    font-weight: 100;
+    text-decoration: none;
+    cursor: pointer;
+    text-align:center;
+    transition:all;
+
+
+}
+
+#inscription .buttonstyle1 {
+    width:100% ;
+}
+
+#identification .buttonstyle2 {
+    width:100% ;
+}
+
+#banner {
+ min-height: 400px;
+ background-image:url('../img/a.jpg') ;
+
+}
+
+body {
+    background-image:url"a.jpg";
+}
+
+h3 {
+    margin-left:20px;
+
+}
+
+
+.justify-content {
+    justify-content: space-around !important;
+}
+.card {
+    align-items: center;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
